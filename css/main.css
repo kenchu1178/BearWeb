@@ -1,0 +1,142 @@
+
+/* banner */
+.banner .container {
+	height: 50px;
+}
+
+/* header */
+.header .container {
+	background-color: #FFC001;
+	height: 68px;
+	margin: 30px 0 0px;
+}
+
+.header li {
+	display: inline-block;
+	margin: 20px 20px 20px 20px;
+	font-size: 20px;
+	list-style: none;
+}
+
+.header li a:hover {
+	color: red;
+}
+ß
+.header li a:active {
+	color: red;
+}
+
+
+.logo {
+	position: relative;
+	top: -30px;
+}
+
+.header a {
+	text-decoration: none;
+}
+
+.pull-right {
+	margin-right: 10px;
+}
+
+/* house */
+.main .container {
+	margin: 0px 20px 0px 0px;
+	height: 800px;
+	background: url("../img/home.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.blankmain .container {
+	margin: 0px 20px 0px 0px;
+	height: 800px;
+}
+
+.job {
+	text-align: center;
+	background: green;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	line-height: 100px;
+}
+
+.product {
+	margin-top: 30px;
+}
+
+.job h4 {
+	display: inline-block;
+  	vertical-align: middle;
+  	line-height: normal;      
+}
+
+.desc p {
+	margin-left: 20px;
+}
+
+form input.form-control {
+	margin: 10px auto 10px;
+}
+
+#message {
+	height: 100px;
+}
+
+/*
+::-webkit-input-placeholder { // WebKit browsers
+    position: absolute; top: 0; left: 0;
+}
+*/
+
+#msg-btn {
+	margin-top:30px; 
+	color:#fff;
+	background:rgba(0,240,190,0.25);
+	border:0px;
+	border-radius:0px; 
+}
+
+.fb-qrcode {
+	margin-top: 100px;
+	margin-left: 200px;
+}
+
+.blog-qrcode {
+	margin-top: 200px;
+	margin-left: 20px;
+}
+
+/* footer */
+.footer .container{
+	margin: 0px 0 30px;
+	background-color: #FFC001;
+	padding: 16px 0px 16px 50px;
+	color: #fff;
+}
+
+.footer .container .col-md-1 {
+	margin-right: -20px;
+}
+
+.footer .container img {
+	margin: 12px;
+}
+
+.footer .container h5 {
+	margin: 16px 0px 0px 5px;
+}
+
+.footer .container p {
+	margin: 2px 0px 0px 5px;
+}
+
+.footer .container .col-md-2 img {
+	margin: 2px -8px 0px 5px;
+}
+
+.footer .container a {
+	color: #fff;
+}
+
